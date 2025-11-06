@@ -1,0 +1,98 @@
+[
+    {
+      "product_id": "LP001",
+      "product_title": "UltraBook Pro 15",
+      "product_image": "https://example.com/images/ultrabook-pro-15.jpg",
+      "category": "Laptops",
+      "price": 1299,
+      "description": "A lightweight and powerful laptop designed for productivity and performance.",
+      "Specification": [
+        "Intel Core i7",
+        "16GB RAM",
+        "512GB SSD",
+        "15.6-inch FHD display"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "LP002",
+      "product_title": "GamerZ Blade 17",
+      "product_image": "https://example.com/images/gamerz-blade-17.jpg",
+      "category": "Laptops",
+      "price": 1899,
+      "description": "High-performance gaming laptop with RTX graphics.",
+      "Specification": [
+        "Intel Core i9",
+        "32GB RAM",
+        "1TB SSD",
+        "RTX 4070 GPU"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "LP003",
+      "product_title": "NoteFlex 13 Touch",
+      "product_image": "https://example.com/images/noteflex-13.jpg",
+      "category": "Laptops",
+      "price": 899,
+      "description": "Compact 2-in-1 touchscreen laptop for everyday use.",
+      "Specification": [
+        "Intel Core i5",
+        "8GB RAM",
+        "256GB SSD",
+        "13-inch Touchscreen"
+      ],
+      "availability": false,
+      "rating": 4.1
+    },
+    {
+      "product_id": "LP004",
+      "product_title": "OfficeMaster 14",
+      "product_image": "https://example.com/images/officemaster-14.jpg",
+      "category": "Laptops",
+      "price": 649,
+      "description": "Budget-friendly laptop for office and educational work.",
+      "Specification": [
+        "Intel Core i3",
+        "8GB RAM",
+        "256GB SSD",
+        "14-inch Display"
+      ],
+      "availability": true,
+      "rating": 4.0
+    },
+    {
+      "product_id": "LP005",
+      "product_title": "ZenLight Slim 14",
+      "product_image": "https://example.com/images/zenlight-14.jpg",
+      "category": "Laptops",
+      "price": 1099,
+      "description": "Ultra-slim laptop with premium design and long battery life.",
+      "Specification": [
+        "AMD Ryzen 7",
+        "16GB RAM",
+        "512GB SSD",
+        "Metal Build"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "LP006",
+      "product_title": "CreatorBook 16",
+      "product_image": "https://example.com/images/creatorbook-16.jpg",
+      "category": "Laptops",
+      "price": 1599,
+      "description": "Laptop designed for professional content creators.",
+      "Specification": [
+        "Intel Core i7",
+        "32GB RAM",
+        "1TB SSD",
+        "Color-accurate Display"
+      ],
+      "availability": true,
+      "rating": 4.7
+    }
+  ]

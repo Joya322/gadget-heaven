@@ -1,0 +1,68 @@
+[
+  {
+    "product_id": "IP001",
+    "product_title": "iPhone 16 Pro",
+    "product_image": "https://example.com/images/iphone-16-pro.jpg",
+    "category": "Iphone",
+    "price": 1199,
+    "description": "Latest Pro model with A19 Bionic chip.",
+    "Specification": ["256GB Storage", "48MP Camera", "A19 Chip"],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "IP002",
+    "product_title": "iPhone 16",
+    "product_image": "https://example.com/images/iphone-16.jpg",
+    "category": "Iphone",
+    "price": 999,
+    "description": "Standard iPhone 16 with upgraded performance.",
+    "Specification": ["128GB Storage", "A19 Bionic", "Dual Camera"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "IP003",
+    "product_title": "iPhone 15 Pro Max",
+    "product_image": "https://example.com/images/iphone-15-promax.jpg",
+    "category": "Iphone",
+    "price": 1299,
+    "description": "Powerful camera system with titanium body.",
+    "Specification": ["256GB Storage", "48MP Camera", "A17 Pro"],
+    "availability": false,
+    "rating": 4.8
+  },
+  {
+    "product_id": "IP004",
+    "product_title": "iPhone 15",
+    "product_image": "https://example.com/images/iphone-15.jpg",
+    "category": "Iphone",
+    "price": 799,
+    "description": "Dynamic Island and improved battery life.",
+    "Specification": ["128GB Storage", "A16 Bionic", "6.1-inch Display"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "IP005",
+    "product_title": "iPhone 14 Plus",
+    "product_image": "https://example.com/images/iphone-14-plus.jpg",
+    "category": "Iphone",
+    "price": 699,
+    "description": "Large display and long battery life.",
+    "Specification": ["128GB Storage", "A15 Bionic", "6.7-inch Display"],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "IP006",
+    "product_title": "iPhone SE (2023)",
+    "product_image": "https://example.com/images/iphone-se-2023.jpg",
+    "category": "Iphone",
+    "price": 429,
+    "description": "Compact iPhone with Touch ID.",
+    "Specification": ["64GB Storage", "A15 Bionic", "4.7-inch Display"],
+    "availability": true,
+    "rating": 4.3
+  }
+]

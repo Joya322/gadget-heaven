@@ -1,0 +1,68 @@
+[
+  {
+    "product_id": "MB001",
+    "product_title": "MacBook Air M3",
+    "product_image": "https://example.com/images/macbook-air-m3.jpg",
+    "category": "MacBook",
+    "price": 1399,
+    "description": "Apple’s newest M3-powered MacBook Air.",
+    "Specification": ["Apple M3 Chip", "8GB RAM", "256GB SSD"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "MB002",
+    "product_title": "MacBook Pro 14 M3",
+    "product_image": "https://example.com/images/macbook-pro-14-m3.jpg",
+    "category": "MacBook",
+    "price": 1999,
+    "description": "High-performance M3 MacBook Pro for professionals.",
+    "Specification": ["M3 Pro Chip", "16GB RAM", "512GB SSD"],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "MB003",
+    "product_title": "MacBook Air M2",
+    "product_image": "https://example.com/images/macbook-air-m2.jpg",
+    "category": "MacBook",
+    "price": 1199,
+    "description": "Lightweight M2 MacBook Air with long battery life.",
+    "Specification": ["Apple M2 Chip", "8GB RAM", "256GB SSD"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "MB004",
+    "product_title": "MacBook Pro 16 M3 Max",
+    "product_image": "https://example.com/images/macbook-pro-16-m3-max.jpg",
+    "category": "MacBook",
+    "price": 3299,
+    "description": "Ultra-performance laptop for creators.",
+    "Specification": ["M3 Max Chip", "32GB RAM", "1TB SSD"],
+    "availability": false,
+    "rating": 4.9
+  },
+  {
+    "product_id": "MB005",
+    "product_title": "MacBook Pro 13 M2",
+    "product_image": "https://example.com/images/macbook-pro-13-m2.jpg",
+    "category": "MacBook",
+    "price": 1499,
+    "description": "Compact MacBook Pro for everyday professional work.",
+    "Specification": ["M2 Chip", "8GB RAM", "512GB SSD"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "MB006",
+    "product_title": "MacBook Air M1",
+    "product_image": "https://example.com/images/macbook-air-m1.jpg",
+    "category": "MacBook",
+    "price": 999,
+    "description": "Affordable MacBook Air with Apple’s M1 chip.",
+    "Specification": ["M1 Chip", "8GB RAM", "256GB SSD"],
+    "availability": true,
+    "rating": 4.8
+  }
+]

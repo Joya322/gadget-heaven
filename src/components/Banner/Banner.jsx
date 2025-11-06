@@ -1,6 +1,6 @@
 const Banner = () => {
   return (
-    <div className="rounded-b-[32px] p-1 pt-0 m-3 mt-0 border border-t-0 border-[#e5e5e5]">
+    <div className="rounded-b-[32px] p-1 pt-0 m-3 mt-0 border border-y-0 border-[#e5e5e5]">
       <div className="hero bg-[rgba(149,56,226,1)] rounded-b-[32px] py-5 relative pb-56">
         <div className="hero-content text-center w-11/12 mx-auto text-white">
           <div className="max-w-4xl">

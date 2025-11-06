@@ -5,11 +5,11 @@ import { Outlet } from 'react-router-dom';
 
 const Root = () => {
     return (
-        <div>
-            <Navbar />
-            <Outlet/>
-            <Footer/>
-        </div>
+      <div className="bg-[rgba(247,247,247,1)]">
+        <Navbar />
+        <Outlet />
+        <Footer />
+      </div>
     );
 };
 

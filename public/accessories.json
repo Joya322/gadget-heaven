@@ -1,0 +1,68 @@
+[
+  {
+    "product_id": "AC001",
+    "product_title": "ProSound Wireless Headset",
+    "product_image": "https://example.com/images/prosound-headset.jpg",
+    "category": "Accessories",
+    "price": 149,
+    "description": "Noise-cancelling wireless headset.",
+    "Specification": ["Bluetooth 5.2", "30-hour Battery"],
+    "availability": false,
+    "rating": 4.3
+  },
+  {
+    "product_id": "AC002",
+    "product_title": "WireFlex C Charging Cable",
+    "product_image": "https://example.com/images/wireflex-c.jpg",
+    "category": "Accessories",
+    "price": 19,
+    "description": "Fast USB-C charging cable.",
+    "Specification": ["60W Fast Charging", "Nylon Braided"],
+    "availability": true,
+    "rating": 4.2
+  },
+  {
+    "product_id": "AC003",
+    "product_title": "PowerBox 20K Power Bank",
+    "product_image": "https://example.com/images/powerbox-20k.jpg",
+    "category": "Accessories",
+    "price": 39,
+    "description": "High-capacity power bank with dual output.",
+    "Specification": ["20000mAh", "Fast Charging"],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "AC004",
+    "product_title": "AirBeat Mini Speaker",
+    "product_image": "https://example.com/images/airbeat-mini.jpg",
+    "category": "Accessories",
+    "price": 59,
+    "description": "Portable Bluetooth speaker with rich sound.",
+    "Specification": ["10W Output", "Water Resistant"],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "AC005",
+    "product_title": "ViewClean Screen Wipes",
+    "product_image": "https://example.com/images/viewclean.jpg",
+    "category": "Accessories",
+    "price": 9,
+    "description": "Premium screen cleaning wipes.",
+    "Specification": ["Anti-static", "Lint-free"],
+    "availability": true,
+    "rating": 4.1
+  },
+  {
+    "product_id": "AC006",
+    "product_title": "Guardian Laptop Sleeve",
+    "product_image": "https://example.com/images/guardian-laptop-sleeve.jpg",
+    "category": "Accessories",
+    "price": 25,
+    "description": "Protective sleeve for 13 to 15-inch laptops.",
+    "Specification": ["Waterproof Fabric", "Soft Inner Padding"],
+    "availability": true,
+    "rating": 4.4
+  }
+]

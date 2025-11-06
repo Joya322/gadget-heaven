@@ -1,0 +1,171 @@
+[
+  {
+    "product_id": "LP001",
+    "product_title": "UltraBook Pro 14",
+    "product_image": "https://i.ibb.co.com/wZF6HYdY/Laptop1.jpg",
+    "category": "Laptops",
+    "price": 1099,
+    "description": "Lightweight laptop for productivity and travel.",
+    "Specification": ["Intel i7", "16GB RAM", "512GB SSD", "14-inch IPS"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "LP002",
+    "product_title": "GamerX R17",
+    "product_image": "https://i.ibb.co.com/vvCDs0JY/Laptop2.jpg",
+    "category": "Laptops",
+    "price": 1799,
+    "description": "High-performance gaming laptop with RTX graphics.",
+    "Specification": ["Ryzen 9", "32GB RAM", "1TB SSD", "RTX 4070"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "LP003",
+    "product_title": "WorkMate 15",
+    "product_image": "https://i.ibb.co.com/C3CWKCbQ/Laptop3.jpg",
+    "category": "Laptops",
+    "price": 899,
+    "description": "Reliable laptop for office and education.",
+    "Specification": ["Intel i5", "8GB RAM", "256GB SSD", "15.6-inch FHD"],
+    "availability": false,
+    "rating": 4.2
+  },
+
+  {
+    "product_id": "PH001",
+    "product_title": "AeroPhone X1",
+    "product_image": "https://i.ibb.co.com/wNtLpGpM/phone1.jpg",
+    "category": "Phones",
+    "price": 599,
+    "description": "Premium phone with AMOLED display.",
+    "Specification": ["128GB", "8GB RAM", "50MP Camera", "AMOLED"],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "PH002",
+    "product_title": "Nova Z3",
+    "product_image": "https://i.ibb.co.com/3VWKX77/phone2.jpg",
+    "category": "Phones",
+    "price": 399,
+    "description": "Budget friendly smartphone with strong performance.",
+    "Specification": ["64GB", "4GB RAM", "Triple Camera"],
+    "availability": true,
+    "rating": 4.2
+  },
+  {
+    "product_id": "PH003",
+    "product_title": "MegaPhone Ultra",
+    "product_image": "https://i.ibb.co.com/vCYQwFB8/phone3.jpg",
+    "category": "Phones",
+    "price": 899,
+    "description": "Powerful phone with long-lasting battery.",
+    "Specification": ["256GB", "12GB RAM", "6000mAh Battery"],
+    "availability": true,
+    "rating": 4.7
+  },
+
+  {
+    "product_id": "AC001",
+    "product_title": "ProSound Headset",
+    "product_image": "https://i.ibb.co.com/jZLPL1GP/accessories1.jpg",
+    "category": "Accessories",
+    "price": 59,
+    "description": "Wireless headset with noise cancellation.",
+    "Specification": ["Bluetooth 5.2", "ANC", "30h Battery"],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "AC002",
+    "product_title": "AirBeat Mini Speaker",
+    "product_image": "https://i.ibb.co.com/TM0QyFCb/accessories2.jpg",
+    "category": "Accessories",
+    "price": 39,
+    "description": "Portable speaker with deep bass.",
+    "Specification": ["10W Output", "Water-resistant"],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": "AC003",
+    "product_title": "PowerBank 20K",
+    "product_image": "https://i.ibb.co.com/N6wPGjT1/accessories3.jpg",
+    "category": "Accessories",
+    "price": 29,
+    "description": "High-capacity power bank.",
+    "Specification": ["20000mAh", "Fast Charging"],
+    "availability": false,
+    "rating": 4.5
+  },
+
+  {
+    "product_id": "MB001",
+    "product_title": "MacBook Air M1",
+    "product_image": "https://i.ibb.co.com/s9GrRTcq/macbook1.jpg",
+    "category": "MacBook",
+    "price": 999,
+    "description": "Lightweight Apple laptop with M1 chip.",
+    "Specification": ["M1 Chip", "8GB RAM", "256GB SSD"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "MB002",
+    "product_title": "MacBook Air M2",
+    "product_image": "https://i.ibb.co.com/jCdbP82/macbook2.jpg",
+    "category": "MacBook",
+    "price": 1299,
+    "description": "Powerful performance with long battery life.",
+    "Specification": ["M2 Chip", "8GB RAM", "512GB SSD"],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "MB003",
+    "product_title": "MacBook Air M3",
+    "product_image": "https://i.ibb.co.com/kgTqz6Zw/mackbook3.jpg",
+    "category": "MacBook",
+    "price": 1499,
+    "description": "Updated M3 chip with enhanced efficiency.",
+    "Specification": ["M3 Chip", "16GB RAM", "512GB SSD"],
+    "availability": true,
+    "rating": 4.9
+  },
+
+  {
+    "product_id": "IP001",
+    "product_title": "iPhone 16 Pro",
+    "product_image": "https://i.ibb.co.com/Vp078B6W/iphone1.jpg",
+    "category": "Iphone",
+    "price": 1199,
+    "description": "Latest iPhone with A19 Bionic chip.",
+    "Specification": ["256GB", "48MP Camera", "A19 Chip"],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "IP002",
+    "product_title": "iPhone 16",
+    "product_image": "https://i.ibb.co.com/LzKBr6xC/iphone2.jpg",
+    "category": "Iphone",
+    "price": 999,
+    "description": "Smooth performance and stunning display.",
+    "Specification": ["128GB", "A19 Chip"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "IP003",
+    "product_title": "iPhone 15 Pro",
+    "product_image": "https://i.ibb.co.com/JwtzSY81/iphone3.jpg",
+    "category": "Iphone",
+    "price": 1099,
+    "description": "Premium titanium design with advanced cameras.",
+    "Specification": ["256GB", "48MP Camera"],
+    "availability": false,
+    "rating": 4.8
+  }
+]
