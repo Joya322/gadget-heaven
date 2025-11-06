@@ -21,19 +21,19 @@ const router = createBrowserRouter(
           element: <Home />,
         },
         {
-          path: "/statistics",
+          path: "statistics",
           element: <Statistics />,
         },
         {
-          path: "/dashboard",
+          path: "dashboard",
           element: <Dashboard />,
         },
       ],
     },
   ],
-  {
-    basename: "/gadget-heaven/",
-  }
+  // {
+  //   basename: "/gadget-heaven/",
+  // }
 );
 
 createRoot(document.getElementById("root")).render(
