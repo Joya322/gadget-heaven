@@ -1,13 +1,13 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import './index.css'
+import "./index.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./components/Root/Root.jsx";
 import ErrorPage from "./components/ErrorPage/ErrorPage.jsx";
 import Home from "./components/Home/Home.jsx";
 import Statistics from "./components/Statistics/Statistics.jsx";
-import Dashboard from './components/Dashboard/Dashboard';
+import Dashboard from "./components/Dashboard/Dashboard";
 
 const router = createBrowserRouter(
   [
@@ -19,7 +19,7 @@ const router = createBrowserRouter(
         {
           path: "/",
           element: <Home />,
-          loader: ()=> fetch("./all-data.json"),
+          loader: () => fetch("./all-data.json"),
         },
         {
           path: "statistics",
@@ -31,7 +31,7 @@ const router = createBrowserRouter(
         },
       ],
     },
-  ],
+  ]
   // {
   //   basename: "/gadget-heaven/",
   // }

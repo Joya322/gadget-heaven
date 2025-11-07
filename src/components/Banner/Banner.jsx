@@ -12,7 +12,7 @@ const Banner = () => {
               next level. From smart devices to <br /> the coolest accessories,
               we have it all!
             </p>
-            <button className="btn text-[rgba(149,56,226,1)] rounded-[32px] py-4 px-7">
+            <button className="btn text-[rgba(149,56,226,1)] rounded-[32px] py-4 px-7 normal-case">
               Shop Now
             </button>
           </div>

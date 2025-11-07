@@ -11,7 +11,7 @@ const Gadget = ({ product }) => {
         <h2 className="card-title text-2xl font-semibold">{product_title}</h2>
         <p className="opacity-60 text-xl">Price: {price}k</p>
         <div className="card-actions justify-end">
-          <button className="btn text-[rgba(149,56,226,1)] font-semibold text-lg rounded-[32px] border border-[rgba(149,56,226,.7)] bg-[rgba(149,56,226,0.1)]">
+          <button className="btn text-[rgba(149,56,226,1)] font-semibold text-lg rounded-[32px] border border-[rgba(149,56,226,.7)] bg-[rgba(149,56,226,0.1)] normal-case">
             View Details
           </button>
         </div>
