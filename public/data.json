@@ -30,7 +30,7 @@
     "description": "Reliable laptop for office and education.",
     "Specification": ["Intel i5", "8GB RAM", "256GB SSD", "15.6-inch FHD"],
     "availability": false,
-    "rating": 4.2
+    "rating": 3.0
   },
 
   {
@@ -42,7 +42,7 @@
     "description": "Premium phone with AMOLED display.",
     "Specification": ["128GB", "8GB RAM", "50MP Camera", "AMOLED"],
     "availability": true,
-    "rating": 4.5
+    "rating": 4.0
   },
   {
     "product_id": "PH002",
@@ -64,7 +64,7 @@
     "description": "Powerful phone with long-lasting battery.",
     "Specification": ["256GB", "12GB RAM", "6000mAh Battery"],
     "availability": true,
-    "rating": 4.7
+    "rating": 4.6
   },
 
   {
@@ -110,7 +110,7 @@
     "description": "Lightweight Apple laptop with M1 chip.",
     "Specification": ["M1 Chip", "8GB RAM", "256GB SSD"],
     "availability": true,
-    "rating": 4.8
+    "rating": 4.3
   },
   {
     "product_id": "MB002",
@@ -121,7 +121,7 @@
     "description": "Powerful performance with long battery life.",
     "Specification": ["M2 Chip", "8GB RAM", "512GB SSD"],
     "availability": true,
-    "rating": 4.9
+    "rating": 4.5
   },
   {
     "product_id": "MB003",
@@ -132,7 +132,7 @@
     "description": "Updated M3 chip with enhanced efficiency.",
     "Specification": ["M3 Chip", "16GB RAM", "512GB SSD"],
     "availability": true,
-    "rating": 4.9
+    "rating": 3.9
   },
 
   {

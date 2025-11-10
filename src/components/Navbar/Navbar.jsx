@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useContext, useState } from "react";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { FaRegHeart } from "react-icons/fa";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 import "./Navbar.css";
+import Badge from "@mui/material/Badge";
+import { UserContext } from "../ContextApi/ContextApi";
+
 
 const Navbar = () => {
+  const currentLocation = useLocation().pathname;
+
+  const { cartList, wishList } = useContext(UserContext);
+
+  // console.log(cartList.length);
+
   const links = (
     <>
       <li>
@@ -13,7 +22,7 @@ const Navbar = () => {
           to="/"
           style={({ isActive }) => ({
             backgroundColor: isActive ? "white" : "",
-            color: isActive ? "black" : "white",
+            color: isActive ? "black" : "",
           })}
           end
         >
@@ -24,8 +33,8 @@ const Navbar = () => {
         <NavLink
           to="/statistics"
           style={({ isActive }) => ({
-            backgroundColor: isActive ? "white" : "",
-            color: isActive ? "black" : "white",
+            backgroundColor: isActive ? "rgba(149,56,226,1)" : "",
+            color: isActive ? "white" : "",
           })}
         >
           Statistics
@@ -35,8 +44,8 @@ const Navbar = () => {
         <NavLink
           to="/dashboard"
           style={({ isActive }) => ({
-            backgroundColor: isActive ? "white" : "",
-            color: isActive ? "black" : "white",
+            backgroundColor: isActive ? "rgba(149,56,226,1)" : "",
+            color: isActive ? "white" : "",
           })}
         >
           Dashboard
@@ -46,8 +55,20 @@ const Navbar = () => {
   );
 
   return (
-    <div className="m-3 mb-0 p-1 pb-0 bg-white border border-b-0 border-[#e5e5e5] rounded-t-[32px]">
-      <div className="navbar bg-[rgba(149,56,226,1)] text-white rounded-t-[32px]">
+    <div
+      className={`${
+        currentLocation === "/"
+          ? "m-3 mt-0 mb-0 p-1 pb-0 bg-white border border-b-0 border-[#e5e5e5] rounded-t-[32px]"
+          : ""
+      }`}
+    >
+      <div
+        className={`navbar ${
+          currentLocation === "/"
+            ? "bg-[rgba(149,56,226,1)] text-white rounded-t-[32px]"
+            : "bg-white text-black"
+        }`}
+      >
         <div className="w-11/12 mx-auto">
           <div className="navbar-start">
             <div className="dropdown">
@@ -84,12 +105,18 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="navbar-end flex gap-3 pr-5">
-            <div className="bg-white text-black p-2 rounded-full">
-              <AiOutlineShoppingCart />
-            </div>
-            <div className="bg-white text-black p-2 rounded-full">
-              <FaRegHeart />
-            </div>
+            <Badge badgeContent={cartList.length} color="primary">
+              <div className="bg-white text-black p-2 rounded-full border">
+                <AiOutlineShoppingCart />
+              </div>
+            </Badge>
+
+            {/* heart */}
+            <Badge badgeContent={wishList.length} color="primary">
+              <div className="bg-white text-black p-2 rounded-full border">
+                <FaRegHeart />
+              </div>
+            </Badge>
           </div>
         </div>
       </div>

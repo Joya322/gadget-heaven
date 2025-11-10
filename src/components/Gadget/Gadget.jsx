@@ -14,7 +14,7 @@ const Gadget = ({ product }) => {
         <p className="opacity-60 text-xl">Price: {price}k</p>
         <div className="card-actions justify-end">
           <NavLink
-            to={`/product/${product_id}`}
+            to={`/${product_id}`}
             className="btn text-[rgba(149,56,226,1)] font-semibold text-lg rounded-[32px] border border-[rgba(149,56,226,.7)] bg-[rgba(149,56,226,0.1)] normal-case"
           >
             View Details

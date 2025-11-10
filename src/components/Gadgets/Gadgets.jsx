@@ -18,7 +18,7 @@ const Gadgets = () => {
     "Iphone",
   ];
   return (
-    <div className="mt-[330px] w-11/12 mx-auto p-4">
+    <div className="w-11/12 mx-auto p-4">
       <h2 className="text-4xl text-[rgba(11,11,11,1)] font-bold text-center mb-12">
         Explore Cutting-Edge Gadgets
       </h2>

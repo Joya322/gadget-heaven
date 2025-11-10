@@ -20,7 +20,13 @@ const router = createBrowserRouter(
         {
           path: "/",
           element: <Home />,
-          loader: () => fetch("./data.json"),
+          loader: () => fetch("./data.json").then((res) => res.json()),
+        },
+        ,
+        {
+          path: "/:product_id",
+          element: <Details />,
+          loader: () => fetch("./data.json").then((res) => res.json()),
         },
         {
           path: "statistics",
@@ -29,11 +35,6 @@ const router = createBrowserRouter(
         {
           path: "dashboard",
           element: <Dashboard />,
-        },
-        {
-          path: "product/:product_id",
-          element: <Details />,
-          loader: ()=> fetch('./data.json')
         },
       ],
     },
